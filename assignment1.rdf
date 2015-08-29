@@ -1,0 +1,28 @@
+<rdf:RDF xmlns:>
+
+<foaf:university rdf:nodeID="TUT">
+  <foaf:name>Tshwane university of Technology</foaf:name>
+  <rdfs:seeAlso rdf:resource="http://www.tut.ac.za" />
+ </foaf:university>
+
+ <foaf:high_school rdf:nodeID="Sokisi">
+  <foaf:name>Sokisi High School</foaf:name>
+  <rdfs:seeAlso rdf:resource="http://www.sokisi.com" />
+ </foaf:high_school> 
+ 
+
+ <foaf:Person>
+   <foaf:name>Beauty</foaf:name>
+   <foaf:family_name>Sello</foaf:family_name>
+   <foaf:title>Ms</foaf:title>
+   <foaf:gender>Female</foaf:gender>
+   <foaf:home_language>Tsonga</foaf:home_language>
+   <foaf:race>Black</foaf:race>
+   <foaf:mbox_sha1sum>bkhosa97@gmail.com</foaf:mbox_sha1sum>
+   
+   <foaf:stundentOf rdf:nodeID="#TUT" />
+   <foaf:fomer_studentOf rdf:nodeID="#Sokisi" />
+ </foaf:Person> 
+</rdf:RDF>
+
+  
